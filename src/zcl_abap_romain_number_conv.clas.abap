@@ -94,7 +94,7 @@ CLASS ZCL_ABAP_ROMAIN_NUMBER_CONV IMPLEMENTATION.
       WHEN 'X'. r_arabic = 10.
       WHEN 'L'. r_arabic = 50.
       WHEN 'C'. r_arabic = 100.
-      WHEN 'D'. r_arabic = 500. " Este fue lo ultimo modificado
+      WHEN 'D'. r_arabic = 500.
       WHEN 'M'. r_arabic = 1000.
       WHEN OTHERS.  r_arabic = error_value.
     ENDCASE.
